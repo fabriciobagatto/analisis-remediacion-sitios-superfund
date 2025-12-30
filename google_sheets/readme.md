@@ -1,1 +1,4 @@
-Aqui alojaremos el documento a enlazar con google sheet
+Enlace al Google Sheets del proyecto:
+https://docs.google.com/spreadsheets/d/XXXXXXXXXXXX
+
+Acceso: Solo lectura
