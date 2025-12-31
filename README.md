@@ -152,11 +152,5 @@ Algunos estados concentran una mayor cantidad de sitios activos de larga duraci�
 - El tiempo de permanencia en la NPL es una **aproximación de la duración del proceso**, no una medida exacta de intervención física.
 - No se analizan variables socioeconómicas o presupuestarias.
 
----
-
-## Estado del proyecto
-
--Análisis completo  
--Dashboard finalizado  
--Documentación en desarrollo  
+ 
 
