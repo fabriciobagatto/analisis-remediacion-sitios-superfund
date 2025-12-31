@@ -78,7 +78,9 @@ El dataset original se conserva sin modificaciones para asegurar reproducibilida
    - Dashboard sintético
 
 Para sitios activos, la duración se calcula hasta la fecha actual del análisis.
+
 Los supuestos, decisiones metodológicas y limitaciones se documentan en /docs/metodologia.md.
+
 ---
 
 ## Principales indicadores (KPIs)
