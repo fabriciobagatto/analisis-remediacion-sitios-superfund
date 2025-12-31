@@ -33,6 +33,7 @@ El tiempo de permanencia de un sitio en la NPL es un buen **indicador proxy de l
 - **Fuente:** Environmental Protection Agency (EPA)
 - **Dataset:** *Superfund National Priorities List (NPL) – Sites with Status Information*
 - **Formato:** CSV
+- **Datos originales:** /datos/crudos/Superfund_NPL_Sitios_con_Estado.csv
 - **Cobertura:** Sitios NPL a nivel nacional (EE.UU.)
 - **Variables principales:**
   - Identificación del sitio
@@ -77,7 +78,7 @@ El dataset original se conserva sin modificaciones para asegurar reproducibilida
    - Dashboard sintético
 
 Para sitios activos, la duración se calcula hasta la fecha actual del análisis.
-
+Los supuestos, decisiones metodológicas y limitaciones se documentan en /docs/metodologia.md.
 ---
 
 ## Principales indicadores (KPIs)
@@ -95,7 +96,7 @@ Estos indicadores permiten evaluar la carga histórica y el estado actual del pr
 
 ### Distribución de sitios por estado de remediación
 
-![Distribución de Sitios por Estado de Remediación](graficos/Distribución de Sitios por Estado de Remediaciónión.png)
+![Distribución de sitios por estado de remediación](graficos/distribucion_estado_remediacion.png)
 
 La mayoría de los sitios incluidos en la NPL **continúan activos**, lo que evidencia la naturaleza prolongada de los procesos de remediación y la acumulación histórica de casos.
 
@@ -103,7 +104,7 @@ La mayoría de los sitios incluidos en la NPL **continúan activos**, lo que evi
 
 ### Duración promedio de los procesos por región EPA
 
-![Duración Promedio por Región EPA](graficos/Duración Promedio de Procesos de Remediación por Región EPA (en años).png)
+![Duración promedio por región EPA](graficos/duracion_promedio_region_epa.png)
 
 Todas las regiones presentan **duraciones promedio elevadas (≈25–33 años)**, lo que sugiere que la complejidad del proceso es **estructural y sistémica**, más que un fenómeno localizado.
 
@@ -111,7 +112,7 @@ Todas las regiones presentan **duraciones promedio elevadas (≈25–33 años)**
 
 ### Clasificación de sitios según duración del proceso
 
-![Clasificación por duración](graficos/Clasificación de sitios según duración del proceso.png)
+![Clasificación de sitios según duración](graficos/clasificacion_duracion_procesos.png)
 
 Predominan ampliamente los sitios con **duraciones mayores a 10 años**, confirmando que la NPL está compuesta por casos de muy largo plazo.
 
@@ -119,7 +120,7 @@ Predominan ampliamente los sitios con **duraciones mayores a 10 años**, confirm
 
 ### Evolución temporal de ingresos a la NPL
 
-![Evolución temporal de ingresos](graficos/Evolución temporal - Sitios ingresados a la Lista Nacional de Prioridades.png)
+![Evolución temporal de ingresos a la NPL](graficos/evolucion_ingresos_npl.png)
 
 Se observa una fuerte concentración de ingresos en los primeros años del programa, seguida por una estabilización, lo que refleja una **carga histórica heredada** que aún persiste.
 
@@ -127,7 +128,7 @@ Se observa una fuerte concentración de ingresos en los primeros años del progr
 
 ### Estados con mayor cantidad de sitios activos >10 años (Top 10)
 
-![Top 10 Estados](graficos/Estados con mayor cantidad de sitios activos _10 años_)
+![Top 10 estados con sitios activos >10 años](graficos/top10_estados_activos_larga_duracion.png)
 
 Algunos estados concentran una mayor cantidad de sitios activos de larga duración, lo que puede asociarse a factores históricos, industriales y regulatorios.
 
@@ -135,10 +136,13 @@ Algunos estados concentran una mayor cantidad de sitios activos de larga duraci�
 
 ## Conclusiones
 
-- El programa Superfund gestiona **procesos de remediación extremadamente prolongados**.
+- La remediación de sitios Superfund es un proceso estructuralmente largo, con duraciones promedio superiores a varias décadas.
 - La mayoría de los sitios de la NPL siguen activos décadas después de su ingreso.
+- Existe una alta proporción de sitios activos, lo que representa una carga ambiental y administrativa sostenida.
 - Las duraciones elevadas son consistentes entre regiones, indicando **desafíos estructurales**.
+- Las diferencias regionales son moderadas, lo que indica que la complejidad del problema es sistémica.
 - La identificación de sitios activos de larga duración permite focalizar análisis de gestión y planificación.
+- Los resultados refuerzan la importancia de planificación a largo plazo, priorización de sitios críticos y seguimiento mediante indicadores claros.
 
 ---
 
